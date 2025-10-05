@@ -3,12 +3,6 @@ import numpy as np
 from pathlib import Path
 
 def getArea(mask_path):
-    """
-    Calculates the area of lake pixels from a single mask file.
-
-    Args:
-        mask_path (str or Path): The full path to the mask .tif file.
-    """
     mask_path = Path(mask_path)
     if not mask_path.exists():
         print(f"Error: Mask file not found at {mask_path}")

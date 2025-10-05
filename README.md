@@ -1,4 +1,4 @@
-# npSAR-dl: Automated Glacial Lake Monitoring
+# npSAR-TestModel: Automated Glacial Lake Monitoring
 
 A deep learning-based system for automated glacial lake detection and monitoring in Nepal using Sentinel-1 Synthetic Aperture Radar (SAR) satellite imagery.
 
@@ -23,7 +23,7 @@ It is highly recommended to use a Python virtual environment to manage dependenc
 
 ```bash
 # Navigate to the project directory
-cd npSAR-dl
+cd npSAR-TestModel
 
 # Create a virtual environment
 python3 -m venv .venv
@@ -109,7 +109,7 @@ The project includes a pre-trained model, but you can train your own using the `
 ### Project Structure
 
 ```
-npSAR-dl/
+npSAR-TestModel/
 ├── src/                      # Core processing scripts
 │   ├── DownloadProcessing.py   # Step 1: Download and process data
 │   ├── Orchestrator.py       # Step 2: Predict and analyze

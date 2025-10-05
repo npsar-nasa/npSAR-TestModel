@@ -4,11 +4,8 @@ import CheckArea
 from pathlib import Path
 import matplotlib.pyplot as plt
 
-# --- Main Orchestration Logic ---
 
 # 1. Define the input directory for prediction
-# This should point to the folder with the SAR images you want to process.
-# We'll get it from the DownloadProcessing script for consistency.
 input_image_dir = DP.getFinalPatchDir()
 print(input_image_dir)
 if not input_image_dir.exists():
@@ -65,6 +62,5 @@ for image_path in input_image_dir.glob('*.tif'):
     CheckArea.getArea(saved_mask_path)
     print("-" * 50)
 
-print("\n Orchestration complete!")
 
 
