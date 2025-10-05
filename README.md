@@ -59,7 +59,8 @@ Open `src/config.ini` and set the following:
     -   `job_name`: A unique name for the data processing job on HyP3.
     -   `start_date` / `end_date`: The month and day for the search period within each year (e.g., `07-01` to `08-31`).
 
-For wkt, you can first create a geojson from http://geojson.io and then convert it to wkt from https://geojson-to-wkt-converter.onrender.com.
+For wkt, you can first create a geojson polygon from http://geojson.io such that it covers the glacier lake you want to observe at that date and then convert it to wkt from https://geojson-to-wkt-converter.onrender.com.
+Reminder: Our model is currently specialized to 5 lakes due to time constraint.
 
 ### 3. Running the Pipeline
 
