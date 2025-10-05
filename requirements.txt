@@ -1,0 +1,9 @@
+torch
+segmentation-models-pytorch
+albumentations
+rasterio
+numpy
+matplotlib
+asf-search
+hyp3-sdk
+gdal
